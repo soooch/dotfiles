@@ -1,0 +1,308 @@
+cmake
+
+eigen
+
+ffmpeg
+├── lame
+├── libvorbis
+│   └── libogg
+├── libvpx
+├── opus
+├── sdl2
+├── snappy
+├── theora
+│   ├── libogg
+│   └── libvorbis
+│       └── libogg
+├── x264
+├── x265
+├── xvid
+└── xz
+
+fish
+└── pcre2
+
+freetype
+└── libpng
+
+gdbm
+
+gettext
+
+icu4c
+
+ilmbase
+
+imagemagick
+├── freetype
+│   └── libpng
+├── jpeg
+├── libpng
+├── libtiff
+│   └── jpeg
+├── libtool
+├── little-cms2
+│   ├── jpeg
+│   └── libtiff
+│       └── jpeg
+├── openjpeg
+│   ├── libpng
+│   ├── libtiff
+│   │   └── jpeg
+│   └── little-cms2
+│       ├── jpeg
+│       └── libtiff
+│           └── jpeg
+├── webp
+│   ├── jpeg
+│   └── libpng
+└── xz
+
+jemalloc
+
+jpeg
+
+lame
+
+libevent
+└── openssl
+
+libpng
+
+libtermkey
+
+libtiff
+└── jpeg
+
+libtool
+
+libusb
+
+libuv
+
+libvterm
+
+little-cms2
+├── jpeg
+└── libtiff
+    └── jpeg
+
+luajit
+
+msgpack
+
+neofetch
+├── imagemagick
+│   ├── freetype
+│   │   └── libpng
+│   ├── jpeg
+│   ├── libpng
+│   ├── libtiff
+│   │   └── jpeg
+│   ├── libtool
+│   ├── little-cms2
+│   │   ├── jpeg
+│   │   └── libtiff
+│   │       └── jpeg
+│   ├── openjpeg
+│   │   ├── libpng
+│   │   ├── libtiff
+│   │   │   └── jpeg
+│   │   └── little-cms2
+│   │       ├── jpeg
+│   │       └── libtiff
+│   │           └── jpeg
+│   ├── webp
+│   │   ├── jpeg
+│   │   └── libpng
+│   └── xz
+└── screenresolution
+
+neovim
+├── gettext
+├── jemalloc
+├── libtermkey
+├── libuv
+├── libvterm
+├── luajit
+├── msgpack
+└── unibilium
+
+node
+└── icu4c
+
+numpy
+├── openblas
+│   └── gcc
+│       ├── gmp
+│       ├── isl
+│       │   └── gmp
+│       ├── libmpc
+│       │   ├── gmp
+│       │   └── mpfr
+│       │       └── gmp
+│       └── mpfr
+│           └── gmp
+├── python
+│   ├── gdbm
+│   ├── openssl
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   └── xz
+└── python@2
+    ├── gdbm
+    ├── openssl
+    ├── readline
+    └── sqlite
+        └── readline
+
+opencv
+├── eigen
+├── ffmpeg
+│   ├── lame
+│   ├── libvorbis
+│   │   └── libogg
+│   ├── libvpx
+│   ├── opus
+│   ├── sdl2
+│   ├── snappy
+│   ├── theora
+│   │   ├── libogg
+│   │   └── libvorbis
+│   │       └── libogg
+│   ├── x264
+│   ├── x265
+│   ├── xvid
+│   └── xz
+├── jpeg
+├── libpng
+├── libtiff
+│   └── jpeg
+├── numpy
+│   ├── openblas
+│   │   └── gcc
+│   │       ├── gmp
+│   │       ├── isl
+│   │       │   └── gmp
+│   │       ├── libmpc
+│   │       │   ├── gmp
+│   │       │   └── mpfr
+│   │       │       └── gmp
+│   │       └── mpfr
+│   │           └── gmp
+│   ├── python
+│   │   ├── gdbm
+│   │   ├── openssl
+│   │   ├── readline
+│   │   ├── sqlite
+│   │   │   └── readline
+│   │   └── xz
+│   └── python@2
+│       ├── gdbm
+│       ├── openssl
+│       ├── readline
+│       └── sqlite
+│           └── readline
+├── openexr
+│   └── ilmbase
+├── python
+│   ├── gdbm
+│   ├── openssl
+│   ├── readline
+│   ├── sqlite
+│   │   └── readline
+│   └── xz
+├── python@2
+│   ├── gdbm
+│   ├── openssl
+│   ├── readline
+│   └── sqlite
+│       └── readline
+└── tbb
+    └── python@2
+        ├── gdbm
+        ├── openssl
+        ├── readline
+        └── sqlite
+            └── readline
+
+openexr
+└── ilmbase
+
+openjpeg
+├── libpng
+├── libtiff
+│   └── jpeg
+└── little-cms2
+    ├── jpeg
+    └── libtiff
+        └── jpeg
+
+openssl
+
+pcre2
+
+python
+├── gdbm
+├── openssl
+├── readline
+├── sqlite
+│   └── readline
+└── xz
+
+python@2
+├── gdbm
+├── openssl
+├── readline
+└── sqlite
+    └── readline
+
+qt
+
+readline
+
+rtv
+└── python
+    ├── gdbm
+    ├── openssl
+    ├── readline
+    ├── sqlite
+    │   └── readline
+    └── xz
+
+screenresolution
+
+sqlite
+└── readline
+
+tbb
+└── python@2
+    ├── gdbm
+    ├── openssl
+    ├── readline
+    └── sqlite
+        └── readline
+
+tmux
+└── libevent
+    └── openssl
+
+unibilium
+
+webp
+├── jpeg
+└── libpng
+
+x264
+
+xvid
+
+xz
+
+yarn
+└── node
+    └── icu4c
+
+youtube-dl
+
