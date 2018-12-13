@@ -1,6 +1,132 @@
+autoconf
+
+cairo
+├── fontconfig
+│   └── freetype
+│       └── libpng
+├── freetype
+│   └── libpng
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   └── pcre
+├── libpng
+└── pixman
+
 cmake
 
 eigen
+
+d12frosted/emacs-plus/emacs-plus
+├── little-cms2
+│   ├── jpeg
+│   └── libtiff
+│       └── jpeg
+├── gnutls
+│   ├── gmp
+│   ├── libtasn1
+│   ├── libunistring
+│   ├── nettle
+│   │   └── gmp
+│   └── p11-kit
+│       └── libffi
+├── librsvg
+│   ├── cairo
+│   │   ├── fontconfig
+│   │   │   └── freetype
+│   │   │       └── libpng
+│   │   ├── freetype
+│   │   │   └── libpng
+│   │   ├── glib
+│   │   │   ├── gettext
+│   │   │   ├── libffi
+│   │   │   └── pcre
+│   │   ├── libpng
+│   │   └── pixman
+│   ├── gdk-pixbuf
+│   │   ├── glib
+│   │   │   ├── gettext
+│   │   │   ├── libffi
+│   │   │   └── pcre
+│   │   ├── jpeg
+│   │   ├── libpng
+│   │   └── libtiff
+│   │       └── jpeg
+│   ├── glib
+│   │   ├── gettext
+│   │   ├── libffi
+│   │   └── pcre
+│   ├── libcroco
+│   │   └── glib
+│   │       ├── gettext
+│   │       ├── libffi
+│   │       └── pcre
+│   └── pango
+│       ├── cairo
+│       │   ├── fontconfig
+│       │   │   └── freetype
+│       │   │       └── libpng
+│       │   ├── freetype
+│       │   │   └── libpng
+│       │   ├── glib
+│       │   │   ├── gettext
+│       │   │   ├── libffi
+│       │   │   └── pcre
+│       │   ├── libpng
+│       │   └── pixman
+│       ├── fontconfig
+│       │   └── freetype
+│       │       └── libpng
+│       ├── fribidi
+│       ├── glib
+│       │   ├── gettext
+│       │   ├── libffi
+│       │   └── pcre
+│       └── harfbuzz
+│           ├── cairo
+│           │   ├── fontconfig
+│           │   │   └── freetype
+│           │   │       └── libpng
+│           │   ├── freetype
+│           │   │   └── libpng
+│           │   ├── glib
+│           │   │   ├── gettext
+│           │   │   ├── libffi
+│           │   │   └── pcre
+│           │   ├── libpng
+│           │   └── pixman
+│           ├── freetype
+│           │   └── libpng
+│           ├── glib
+│           │   ├── gettext
+│           │   ├── libffi
+│           │   └── pcre
+│           ├── graphite2
+│           └── icu4c
+└── imagemagick@6
+    ├── freetype
+    │   └── libpng
+    ├── jpeg
+    ├── libpng
+    ├── libtiff
+    │   └── jpeg
+    ├── libtool
+    ├── little-cms2
+    │   ├── jpeg
+    │   └── libtiff
+    │       └── jpeg
+    ├── openjpeg
+    │   ├── libpng
+    │   ├── libtiff
+    │   │   └── jpeg
+    │   └── little-cms2
+    │       ├── jpeg
+    │       └── libtiff
+    │           └── jpeg
+    ├── webp
+    │   ├── jpeg
+    │   └── libpng
+    └── xz
 
 ffmpeg
 ├── lame
@@ -22,12 +148,70 @@ ffmpeg
 fish
 └── pcre2
 
+fontconfig
+└── freetype
+    └── libpng
+
 freetype
 └── libpng
 
+fribidi
+
 gdbm
 
+gdk-pixbuf
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   └── pcre
+├── jpeg
+├── libpng
+└── libtiff
+    └── jpeg
+
 gettext
+
+glib
+├── gettext
+├── libffi
+└── pcre
+
+gmp
+
+gnu-sed
+
+gnutls
+├── gmp
+├── libtasn1
+├── libunistring
+├── nettle
+│   └── gmp
+└── p11-kit
+    └── libffi
+
+graphite2
+
+harfbuzz
+├── cairo
+│   ├── fontconfig
+│   │   └── freetype
+│   │       └── libpng
+│   ├── freetype
+│   │   └── libpng
+│   ├── glib
+│   │   ├── gettext
+│   │   ├── libffi
+│   │   └── pcre
+│   ├── libpng
+│   └── pixman
+├── freetype
+│   └── libpng
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   └── pcre
+├── graphite2
+└── icu4c
 
 icu4c
 
@@ -58,16 +242,125 @@ imagemagick
 │   └── libpng
 └── xz
 
+imagemagick@6
+├── freetype
+│   └── libpng
+├── jpeg
+├── libpng
+├── libtiff
+│   └── jpeg
+├── libtool
+├── little-cms2
+│   ├── jpeg
+│   └── libtiff
+│       └── jpeg
+├── openjpeg
+│   ├── libpng
+│   ├── libtiff
+│   │   └── jpeg
+│   └── little-cms2
+│       ├── jpeg
+│       └── libtiff
+│           └── jpeg
+├── webp
+│   ├── jpeg
+│   └── libpng
+└── xz
+
 jemalloc
 
 jpeg
 
 lame
 
+libcroco
+└── glib
+    ├── gettext
+    ├── libffi
+    └── pcre
+
 libevent
 └── openssl
 
+libffi
+
 libpng
+
+librsvg
+├── cairo
+│   ├── fontconfig
+│   │   └── freetype
+│   │       └── libpng
+│   ├── freetype
+│   │   └── libpng
+│   ├── glib
+│   │   ├── gettext
+│   │   ├── libffi
+│   │   └── pcre
+│   ├── libpng
+│   └── pixman
+├── gdk-pixbuf
+│   ├── glib
+│   │   ├── gettext
+│   │   ├── libffi
+│   │   └── pcre
+│   ├── jpeg
+│   ├── libpng
+│   └── libtiff
+│       └── jpeg
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   └── pcre
+├── libcroco
+│   └── glib
+│       ├── gettext
+│       ├── libffi
+│       └── pcre
+└── pango
+    ├── cairo
+    │   ├── fontconfig
+    │   │   └── freetype
+    │   │       └── libpng
+    │   ├── freetype
+    │   │   └── libpng
+    │   ├── glib
+    │   │   ├── gettext
+    │   │   ├── libffi
+    │   │   └── pcre
+    │   ├── libpng
+    │   └── pixman
+    ├── fontconfig
+    │   └── freetype
+    │       └── libpng
+    ├── fribidi
+    ├── glib
+    │   ├── gettext
+    │   ├── libffi
+    │   └── pcre
+    └── harfbuzz
+        ├── cairo
+        │   ├── fontconfig
+        │   │   └── freetype
+        │   │       └── libpng
+        │   ├── freetype
+        │   │   └── libpng
+        │   ├── glib
+        │   │   ├── gettext
+        │   │   ├── libffi
+        │   │   └── pcre
+        │   ├── libpng
+        │   └── pixman
+        ├── freetype
+        │   └── libpng
+        ├── glib
+        │   ├── gettext
+        │   ├── libffi
+        │   └── pcre
+        ├── graphite2
+        └── icu4c
+
+libtasn1
 
 libtermkey
 
@@ -75,6 +368,8 @@ libtiff
 └── jpeg
 
 libtool
+
+libunistring
 
 libusb
 
@@ -127,6 +422,9 @@ neovim
 ├── luajit
 ├── msgpack
 └── unibilium
+
+nettle
+└── gmp
 
 node
 └── icu4c
@@ -241,7 +539,59 @@ openjpeg
 
 openssl
 
+p11-kit
+└── libffi
+
+pango
+├── cairo
+│   ├── fontconfig
+│   │   └── freetype
+│   │       └── libpng
+│   ├── freetype
+│   │   └── libpng
+│   ├── glib
+│   │   ├── gettext
+│   │   ├── libffi
+│   │   └── pcre
+│   ├── libpng
+│   └── pixman
+├── fontconfig
+│   └── freetype
+│       └── libpng
+├── fribidi
+├── glib
+│   ├── gettext
+│   ├── libffi
+│   └── pcre
+└── harfbuzz
+    ├── cairo
+    │   ├── fontconfig
+    │   │   └── freetype
+    │   │       └── libpng
+    │   ├── freetype
+    │   │   └── libpng
+    │   ├── glib
+    │   │   ├── gettext
+    │   │   ├── libffi
+    │   │   └── pcre
+    │   ├── libpng
+    │   └── pixman
+    ├── freetype
+    │   └── libpng
+    ├── glib
+    │   ├── gettext
+    │   ├── libffi
+    │   └── pcre
+    ├── graphite2
+    └── icu4c
+
+pcre
+
 pcre2
+
+pixman
+
+pkg-config
 
 python
 ├── gdbm
@@ -283,6 +633,8 @@ tbb
     ├── readline
     └── sqlite
         └── readline
+
+texinfo
 
 tmux
 └── libevent

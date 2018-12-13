@@ -3,3 +3,5 @@ cp ~/.tmux.conf tmux.conf
 cp ~/.config/nvim/init.vim init.vim
 cp ~/.config/fish/config.fish config.fish
 brew deps --tree --installed > brewpackages.txt
+git commit -a -m "updating files"
+git push origin master
